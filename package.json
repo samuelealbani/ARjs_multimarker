@@ -10,6 +10,7 @@
     "build": "webpack --mode=production",
     "build:dev": "webpack --mode=development --progress --watch",
     "server": "npx http-server -c -1",
+    "dev": "nodemon--exec \"npx http-server -c -1\"",
     "prepare": "husky"
   },
   "files": [
@@ -61,6 +62,7 @@
   "dependencies": {
     "@ar-js-org/artoolkit5-js": "^0.3.1",
     "aframe": "^1.6.0",
+    "nodemon": "^3.1.10",
     "three": "^0.164.0"
   },
   "lint-staged": {
